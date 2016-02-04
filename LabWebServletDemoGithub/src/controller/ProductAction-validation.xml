@@ -1,0 +1,25 @@
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.2//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+<validators>
+    <field name="bean.id">
+        <field-validator type="int">
+            <message key="invalid.fieldvalue.bean.id"/>
+        </field-validator>
+    </field>
+    <field name="bean.price">
+        <field-validator type="double">
+            <message key="invalid.fieldvalue.bean.price"/>
+        </field-validator>
+    </field>
+      <field name="bean.make">
+        <field-validator type="date">
+            <message key="invalid.fieldvalue.bean.make"/>
+        </field-validator>
+    </field>
+       <field name="bean.expire">
+        <field-validator type="int">
+            <message key="invalid.fieldvalue.bean.expire"/>
+        </field-validator>
+    </field>
+</validators>
