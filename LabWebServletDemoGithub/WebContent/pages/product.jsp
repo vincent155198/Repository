@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Product</title>
+<title3>Product</title3>
 <script type="text/javascript">
 function clearForm() {
 	var inputs = document.getElementsByTagName("input");
